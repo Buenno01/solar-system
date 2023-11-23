@@ -6,7 +6,8 @@ import PlanetCard from './PlanetCard';
 function SolarSystem() {
   const headline = 'Planetas';
   return (
-    <div data-testid="solar-system">
+    <section>
+      <div data-testid="solar-system" />
       <Title headline={ headline } />
       <div
         className="flex justify-center relative"
@@ -21,7 +22,7 @@ function SolarSystem() {
           ))
         }
       </div>
-    </div>
+    </section>
   );
 }
 
