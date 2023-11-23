@@ -6,7 +6,9 @@ type TitleProps = {
 
 function Title({ headline }: TitleProps) {
   return (
-    <h2>
+    <h2
+      className="text-3xl font-medium my-8 text-center"
+    >
       { headline }
     </h2>
   );

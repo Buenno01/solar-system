@@ -15,7 +15,11 @@ module.exports = {
       },
       fontFamily: {
         'my-font': ['Montserrat', 'sans-serif'],
-      }
+      },
+      rotate: {
+        '40': '40deg',
+        '150': '150deg',
+      },
     },
   },
   plugins: [],
