@@ -7,11 +7,19 @@ type PlanetCardProps = {
 
 function PlanetCard({ planetImage, planetName }: PlanetCardProps) {
   return (
-    <div data-testid="planet-card">
-      <img src={ planetImage } alt={ planetName } />
-      <p data-testid="planet-name">
+    <div
+      data-testid="planet-card"
+      className="flex flex-col justify-center content-center text-center"
+    >
+      <span className="w-48 flex self-center">
+        <img src={ planetImage } alt={ planetName } />
+      </span>
+      <h3
+        className="text-xl"
+        data-testid="planet-name"
+      >
         {planetName}
-      </p>
+      </h3>
     </div>
   );
 }

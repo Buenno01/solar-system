@@ -8,7 +8,9 @@ function SolarSystem() {
   return (
     <div data-testid="solar-system">
       <Title headline={ headline } />
-      <div>
+      <div
+        className="flex justify-center relative"
+      >
         {
           Planets.map((planet, index) => (
             <PlanetCard
