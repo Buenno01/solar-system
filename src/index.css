@@ -620,6 +620,11 @@ video {
   margin-bottom: 2rem;
 }
 
+.my-auto{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .flex{
   display: flex;
 }
@@ -632,12 +637,44 @@ video {
   min-height: 100vh;
 }
 
-.w-48{
-  width: 12rem;
+.w-1\/9{
+  width: 11,11111%;
 }
 
 .w-96{
   width: 24rem;
+}
+
+.w-J\FApiter{
+  width: 100%;
+}
+
+.w-Marte{
+  width: 25%;
+}
+
+.w-Merc\FArio{
+  width: 15%;
+}
+
+.w-Netuno{
+  width: 50%;
+}
+
+.w-Saturno{
+  width: 80%;
+}
+
+.w-Terra{
+  width: 30%;
+}
+
+.w-Urano{
+  width: 50%;
+}
+
+.w-V\EAnus{
+  width: 20%;
 }
 
 .rotate-150{
@@ -656,10 +693,6 @@ video {
 
 .justify-center{
   justify-content: center;
-}
-
-.self-center{
-  align-self: center;
 }
 
 .rounded-ellipsis{
